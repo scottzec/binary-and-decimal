@@ -14,7 +14,6 @@ end
 # Generates random array to pass as argument in binary_to_decimal method
 binary_numbers = Array.new(8) {rand (0..1)}
 
-
 binary_to_decimal(binary_numbers)
 
 
